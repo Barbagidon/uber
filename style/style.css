@@ -9,10 +9,16 @@
 nav {
     height: 50px;
     background: #212121;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 2;
+    
 }
 
 header {
     position: relative;
+   
 }
 
 .menu {
@@ -21,6 +27,8 @@ header {
     padding: 13px 70px;
     margin: 0;
     list-style-type: none;
+   
+   
 }
 
 .menu .menu_link {
@@ -33,6 +41,7 @@ header {
 
 .menu .menu_link:hover {
     text-decoration: underline;
+    
 }
 
 .menu .menu_item:not(:last-child) {
@@ -45,6 +54,7 @@ header {
     background: rgba(0, 0, 0, .6);
     position: absolute;
     width: 100%;
+    top:50px;
 }
 
 .subheader .subheader_logo {
@@ -194,7 +204,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+   
 }
 
 
@@ -202,7 +212,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    
 }
 
 
@@ -213,10 +223,7 @@ header {
 
 }
 
-.img_wrapper{
-    display: flex;
-    align-items: center;
-}
+
 
 .img {
     width: 116px;
@@ -243,62 +250,42 @@ header {
     font-size: 15px;
     color: #202020;
     max-width: 372px;
+    
+}
 
+.main-text{
+    margin-left: 25px;
 }
 
 .card-text {
-    margin-left: 25px;
     margin-top: 16px;
     max-width: 371px;
     min-height: 151px;
 }
 
 .bonuses-img {
-    margin-top: 32px;
+    margin-top: 17px;
 }
 
 .bonuses-text {
-    margin-left: 25px;
     max-width: 341px;
     margin-top: 16px;
     min-height: 128px;
+
 }
-
-
-.money-text {
-    margin-left: 25px;
-    margin-top: 26px;
-}
-
 .time-text {
-    margin-left: 25px;
     max-width: 339px;
-
-}
-
-.time-img{
-    margin-top:62px ;
 }
 
 
-.keys-text {
-    margin-left: 24px;
-    margin-top: 31px;
-}
 
 .orders-text {
-    margin-left: 25px;
     max-width: 339px;
-}
-
-
-.phone-text {
-    margin-left: 25px;
-
 }
 
 .prints-text {
-    margin-left: 25px;
     max-width: 341px;
+    margin-top: -15px;
     
 }
+
